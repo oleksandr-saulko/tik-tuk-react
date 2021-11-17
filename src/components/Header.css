@@ -1,0 +1,40 @@
+.pageHeader {
+  margin-bottom: 100px;
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+  background-color: #dadada;
+  max-width: 50%;
+  margin: auto;
+}
+
+.search_input {
+  border: none;
+  border-radius: 20px;
+  background-color: #dadada;
+}
+
+.search_input:hover, .search_input:active, .search_input:focus {
+  border: none;
+  box-shadow: none;
+  background-color: #dadada;
+}
+
+.search_icon {
+  display: block;
+  padding: 10px;
+  border-left: 1px solid #adadad;
+}
+
+.suggestedAccountIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  margin-right: 10px;
+}

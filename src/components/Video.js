@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
-import useElementOnScreen from './hooks/useElementOnScreen'
+import useElementOnScreen from '../hooks/useElementOnScreen'
 import VideoPlayButton from "./VideoPlayButton";
-import { convert } from "./functions/convert";
+import { convert } from "../functions/convert";
 import "./Video.css";
 
 const Video = ({

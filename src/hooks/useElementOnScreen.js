@@ -4,7 +4,7 @@ const useElementOnScreen = (options, targetRef) => {
   const [isVisibile, setIsVisible] = useState()
 
   const callbackFunction = entries => {
-    const [entry] = entries //const entry = entries[0]
+    const [entry] = entries
     setIsVisible(entry.isIntersecting)
   }
 
